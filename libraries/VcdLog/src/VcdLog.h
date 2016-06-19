@@ -2,6 +2,7 @@
 #ifndef _VCD_LOG_H_
 #define _VCD_LOG_H_
 
+#include <Arduino.h>
 
 
 /**
@@ -101,3 +102,5 @@ private:
 
   String vcd_file_header;
 };
+
+#endif
