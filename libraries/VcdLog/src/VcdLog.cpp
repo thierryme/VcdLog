@@ -79,7 +79,7 @@ void VcdLog::printHeader()
 
   for(int i = 0;i<signals_index;i++)
   {
-    switch(signals[signals_index].type)
+    switch(signals[i].type)
     {
       case VL_BOOL:
         print_dst->println("$scope module bool $end");

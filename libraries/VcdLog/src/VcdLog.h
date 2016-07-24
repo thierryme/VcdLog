@@ -105,6 +105,7 @@ public:
  */
   void printSignal(int signal_index, bool val, uint32_t signal_time);
   void printSignal(int signal_index, int val, uint32_t signal_time);
+  void printSignal(int signal_index, char val, uint32_t signal_time);
   void printSignal(int signal_index, float val, uint32_t signal_time);
 
 private:
