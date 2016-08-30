@@ -1,11 +1,12 @@
-VcdLog is an arduino library enabling the formatting of data in the VCD format.
+# VcdLog
+
+Basic library for logging certain type of data into the VCD format. See the  IEEE Standard 1364-1995.
+
+Use the TCL script with Gtkwave to have automatic coloring and format selection.
+
+Syntax (Gtkwave must be compiled with TCL script support)
+> gtkwave file.vcd --script gtkwave_init2.tcl
 
 
-TCL script usage: 
-> $ gtkwave file.vcd --script gtkwave_init.tcl
-
-Note: Gtkwave must have been compiled with TCL support.
-
-
-python script which listen VCD formated data from a serial port and write them
-in a file
+The python script retrieves VCD datas from a Serial connection and writes them to the computer.
+> ./serialToFile.py -p /dev/my_tty_port -b baudrate > filename.vcd
