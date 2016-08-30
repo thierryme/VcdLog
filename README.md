@@ -14,7 +14,7 @@ Use the TCL script with Gtkwave to have automatic coloring and format selection.
 ```
 
 ## Python script
-The python script retrieves VCD datas from a Serial connection and writes them to the computer.
+The python script retrieves VCD datas from a serial connection and writes them on the standard output.
 
 ```bash
 ./VCDSerialToFile.py -p /dev/my_tty_port -b baudrate > filename.vcd
