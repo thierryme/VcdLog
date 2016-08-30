@@ -2,15 +2,18 @@
 
 Basic library for logging certain type of data into the VCD format. See the  IEEE Standard 1364-1995.
 
+
+## TCL script
 Use the TCL script with Gtkwave to have automatic coloring and format selection.
 
-Syntax (Gtkwave must be compiled with TCL script support)
+### Syntax 
+> note: Gtkwave must be compiled with TCL script support
 
 ```bash
 ./gtkwave_file.vcd --script gtkwave_init2.tcl
 ```
 
-
+## Python script
 The python script retrieves VCD datas from a Serial connection and writes them to the computer.
 
 ```bash
