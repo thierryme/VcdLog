@@ -1,6 +1,6 @@
 # VcdLog
 
-Basic library for logging certain type of data into the VCD format. See the  IEEE Standard 1364-1995.
+Basic Arduino library for logging certain type of data into the VCD format. See the  IEEE Standard 1364-1995.
 
 
 ## TCL script
